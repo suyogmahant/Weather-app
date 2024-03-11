@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"> 
+    <link rel="stylesheet" href="Weather.css">
+</head>
+<body>
+    <div class="weather-app">
+        <div class="container">
+            <h3 class="brand"><b></b>  The Weather</h3>
+        <div>
+        <h1 class="temp"></h1>
+        <div class="city-time">
+            <h1 class="name"></hi>
+                <h4 class="date">
+                    
+                </h4>
+        </div>    
+        <div class="weather">
+            <img class="icon" src="" >
+            <span class="condition"></span>
+        </div>
+        </div>
+    </div>
+    <div class="panel">
+        <form action="" id="locationInput">
+            <input type="text" class="search" placeholder="Search Location..."/>
+            <button type="submit" class="submit"><i class="fas fa-search"></i></button>
+        </form>
+        <div class="separator">or</div>
+            <button class="devloc" onclick="findlocation()">Get Device Location</button>
+        <ul class="details">
+            <h4>Weather Details</h4>
+            <li>
+                <span>Cloud</span>
+                <span class="cloud"></span>
+            </li>
+            <li>
+                <span>Humidity</span>
+                <span class="humidity"></span>
+            </li>
+            <li>
+                <span>Wind Speed</span>
+                <span class="wind"></span>
+            </li>
+        </ul>
+    </div>
+    </div>
+    <script src="Weather2.js"></script>
+</body>
+</html>
